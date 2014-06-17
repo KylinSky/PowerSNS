@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants" >
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/album_bg_top"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/imageButton_back_friends_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/album_back"
+            />
+
+        <TextView
+            android:id="@+id/textView_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/messagte"
+            android:textSize="20dp" />
+
+          
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listView_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

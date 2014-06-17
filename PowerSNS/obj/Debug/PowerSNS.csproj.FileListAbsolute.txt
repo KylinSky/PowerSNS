@@ -1,0 +1,10 @@
+D:\share\PowerSNS\PowerSNS\obj\Debug\ResolveAssemblyReference.cache
+D:\share\PowerSNS\PowerSNS\bin\PowerSNS.dll
+D:\share\PowerSNS\PowerSNS\bin\PowerSNS.pdb
+D:\share\PowerSNS\PowerSNS\obj\Debug\PowerSNS.dll
+D:\share\PowerSNS\PowerSNS\obj\Debug\PowerSNS.pdb
+D:\PowerSNS\PowerSNS\bin\PowerSNS.dll
+D:\PowerSNS\PowerSNS\bin\PowerSNS.pdb
+D:\PowerSNS\PowerSNS\obj\Debug\ResolveAssemblyReference.cache
+D:\PowerSNS\PowerSNS\obj\Debug\PowerSNS.dll
+D:\PowerSNS\PowerSNS\obj\Debug\PowerSNS.pdb

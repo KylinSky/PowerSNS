@@ -1,0 +1,11 @@
+<publishData>
+  <publishTarget publishUrl="C:\Inetpub\wwwroot\bcpand\">
+    <file relUrl="bin/PowerSNS.pdb" publishTime="12/24/2013 10:11:40" />
+    <file relUrl="GeoService.asmx" publishTime="12/24/2013 09:56:48" />
+    <file relUrl="PhotoService.asmx" publishTime="12/24/2013 09:56:48" />
+    <file relUrl="bin/PowerSNS.dll" publishTime="12/24/2013 10:11:40" />
+    <file relUrl="Service1.asmx" publishTime="12/24/2013 09:52:32" />
+    <file relUrl="UpdateInfoService.asmx" publishTime="12/24/2013 09:56:48" />
+    <file relUrl="Web.config" publishTime="12/24/2013 09:53:22" />
+  </publishTarget>
+</publishData>

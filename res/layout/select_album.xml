@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+         >
+
+        <TextView
+            android:id="@+id/textView_photoname"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:text="@string/planet_ptomry"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+      
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button_album_backs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/album_back" />
+
+        <Button
+            android:id="@+id/button_add_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_photo" />
+
+        <Button
+            android:id="@+id/button_delect_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delept_album" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/editText_album_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+         android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/button_album_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comment" 
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button_select_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_comment"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/log_bg_list"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <ImageView
+            android:id="@+id/bt_back1"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bt_back" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/log_list"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="52dp"
+            android:src="@drawable/log_bt_write" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_diary"
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp" >
+
+    </ListView>
+
+</LinearLayout>

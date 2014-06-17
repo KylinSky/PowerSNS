@@ -1,0 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace WebServiceDemo.PhotoManagement.Enum
+{
+    public class DefaultValue
+    {
+        public static string DEFAULT_ALBUM_FACE_ADDR = "default_face.png";
+        public static string DEFAULT_ALBUM_ROOT_ADDR = "http://192.168.1.103:8081/User_PhotoFile/";
+        public static string DEFAULT_ALBUM_ROOT_FILEPATH = "D:\\MyWebservice\\MyWebservice\\PhotoFile\\";
+        public static string WEB_SERVICE_ROOT = "D:\\MyWebservice\\MyWebservice\\";
+    }
+}

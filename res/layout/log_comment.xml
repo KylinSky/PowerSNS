@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_effect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log_comment"
+  >
+
+    <EditText
+        android:id="@+id/log_person"
+        android:layout_width="182dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/item3"
+        android:ems="15"
+        android:hint="评论人"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp" 
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/zys"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/item3"
+        android:ems="10"
+        android:gravity="left|top"
+        android:hint="请输入您的评论"
+        android:inputType="textMultiLine"
+        android:minLines="4"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp" />
+
+</LinearLayout>
